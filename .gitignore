@@ -4,4 +4,4 @@ __pycache__/
 .env
 .venv/
 venv/
-.DS_Store
+.DS_Storemovies_clean.csv 

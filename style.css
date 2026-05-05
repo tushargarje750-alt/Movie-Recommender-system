@@ -1,0 +1,95 @@
+/* Main container styling */
+.stApp {
+    background-color: #0e1117;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Titles and Headers */
+h1,
+h2,
+h3 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+h1 {
+    background: linear-gradient(90deg, #FF4B4B 0%, #FF914D 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 20px;
+}
+
+/* Cards for movies */
+.movie-card {
+    background-color: #1a1c24;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #2d2f36;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-color: #FF4B4B;
+}
+
+.movie-title {
+    color: #FF4B4B;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.movie-genres {
+    color: #a0a0a0;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.movie-description {
+    color: #e0e0e0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 24px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #a0a0a0;
+    font-size: 16px;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: transparent;
+    color: #FF4B4B;
+    font-weight: bold;
+    border-bottom: 2px solid #FF4B4B;
+}
+
+/* Buttons */
+.stButton button {
+    background: linear-gradient(90deg, #FF4B4B 0%, #FF914D 100%);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: opacity 0.3s;
+}
+
+.stButton button:hover {
+    opacity: 0.9;
+    color: white;
+    border-color: transparent;
+}
